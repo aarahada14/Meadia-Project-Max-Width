@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+
+/* ...........................containar start........................ */
+
+.containar{
+    max-width: 1320px;
+    margin:  auto;
+    
+}
+.containar-fuid{
+    width: 100%;
+}
+
+
+/* ...........................containar end........................ */
+
+
+/* ...........................flex start........................... */
+.d-flex{
+    display: flex;
+}
+.content-center{
+    justify-content: center;
+}
+.content-end{
+    justify-content: end;
+}
+.content-around{
+    justify-content: space-around;
+}
+.content-between{
+    justify-content: space-between !important;
+}
+.align-center{
+    align-items: center;
+}
+.align-end{
+    align-items: end;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+    align-items: space-around;
+}
+.gap{
+    gap: 20px;
+}
+
+/* ...........................flex end........................... */
+
+
+/* ...........................bg start........................  */
+
+.bg-gainsboro{
+    background-color: gainsboro;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-red{
+    background-color: #eb6c59;
+}
+.bg-green{
+    background-color: #d9eee5;
+}
+.bg-img{
+    background-image:url("../img/billboard-bg.png") ;
+}
+.bg-orange{
+    background-color: #ffeed4;
+}
+.bg-pink{
+    background-color: #ffe6e2;
+}
+.bg-gray{
+    background-color: #e0e5eb;
+}
+
+/* ...........................bg end........................  */
+
+
+/* ...........................border start........................  */
+
+.b-red{
+    border: 1px solid red;
+}
+.b-green{
+    border: 1px solid green;
+}
+.b-black{
+    border: 1px solid black;
+}
+.b-blue{
+    border: 1px solid blue;
+}
+.b-orange{
+    border: 1px solid orange;
+}
+
+
+/* ...........................border end........................  */
+
+
+
+/* ........................... text start........................... */
+
+.t-align{
+    text-align: center;
+    
+}
+.t-align-end{
+    text-align: end;
+    
+}
+.f-color{
+    color: white;
+}
+.i-size{
+    font-size: 25px;
+}
+h6{
+    font-size: 15px;
+    word-spacing: 3px;
+    font-weight: 500;
+}
+h5{
+    font-size: 16px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+ 
+}
+h2:hover{
+    color: #3ab171;
+}
+p{
+    font-size:15px;
+}
+.p-color{
+    color:  #eb6c59;
+    
+}
+
+/* ........................... text start........................... */
+
+
+
+/* ........................... icone start........................... */
+.ri-checkbox-circle-fill{
+    font-size: 22px;
+    color:  #eb6c59;
+   
+}
+.fa-regular{
+    font-size: 45px;
+    color: #4ea779;
+    
+}
+.ri-volume-up-fill{
+    font-size: 45px;
+    color: #f9be60;
+}
+.fa-solid{
+    font-size: 45px;
+    color:#ea6d5a;
+}
+.ri-camera-fill{
+    font-size: 45px;
+    color:#6c747e;
+}
+.ri-macbook-line{
+    font-size: 45px;
+    color:#eb6c59;
+}
+.fa-solid{
+    font-size: 45px;
+    color: #f9be60;
+}
+.fa-handshake{
+    font-size: 45px;
+    color:#eb6c59;
+}
+.pen{
+    font-size: 45px;
+    color:#6c747e;
+}
+.ri-star-fill{
+    color: #5ab886;
+    
+}
+/* ........................... icone end........................... */
+
+
+
+/* ........................... img start........................... */
+
+.img-w{
+    width: 70%;  
+}
+.w-25{
+    width: 25%;
+}
+.w-75{
+    width: 75%;
+}
+img{
+    width: 100%;
+}
+
+/* ........................... img end........................... */
+
+
+/* ........................... button start........................... */
+.btn{
+    width: 200px;
+    height: 60px;
+    border: 1px solid  #4cc082;
+    border-radius: 30px;
+    background-color: #4cc082;
+    font-size: 18px;
+    color: white;
+}
+.btn:hover{
+    background-color: #3ab171;
+}
+.btn2{
+    width: 280px;
+    height: 60px;
+    border: 1px solid  #4cc082;
+    border-radius: 30px;
+    background-color: #4cc082;
+    font-size: 18px;
+    color: white;
+}
+.btn2:hover{
+    background-color: #3ab171;
+}
+/* ........................... button end........................... */
+
+
+/* ........................... hight start........................... */
+.h-50{
+    height: 50px;
+}
+.h-70{
+    height: 70px;
+}
+.h-100{
+    height: 100px;
+}
+.h-200{
+    height: 200px;
+}
+.h-300{
+    height: 300px;
+}
+.h-400{
+    height: 400px;
+}
+.h-600{
+    height: 600px;
+}
+
+/* ........................... hight end........................... */
+
+
+/* ...........................radius-boxsadow start........................  */
+
+.radius{
+    border-radius: 20px;
+}
+.radius-10{
+    border-radius: 10px;
+}
+.radius-100{
+    border-radius: 100%;
+}
+.shadow{
+    box-shadow:1px 1px 5px black;
+}
+
+/* ...........................radius-boxsadow end........................  */
+
+
+/* ........................... margin start........................... */
+.m-40{
+    margin:40px 0px 0px 0px ;
+}
+.m-60{
+    margin:60px 0px 0px 0px ;
+}
+.m-100{
+    margin:100px 0px 0px 0px ;
+}
+/* ........................... margin end........................... */
+
+
+
+/* ........................... padding start........................... */
+
+.p-10{
+    padding: 10px;
+}
+.p-l-r10{
+    padding: 10px 0px;
+}
+.p-top-10{
+    padding-top: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+
+.p-30{
+    padding: 30px;
+}
+.p-l-r30{
+    padding: 30px 0px;
+}
+.p-t-b{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* ........................... padding end........................... */
+
