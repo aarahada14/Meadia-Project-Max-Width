@@ -127,6 +127,20 @@
 .i-size{
     font-size: 25px;
 }
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+}
+h2:hover{
+    color: #3ab171;
+}
+h3{
+    font-size: 90px;
+    font-weight: 300;
+}
 h6{
     font-size: 15px;
     word-spacing: 3px;
@@ -135,16 +149,6 @@ h6{
 h5{
     font-size: 16px;
 }
-h1{
-    font-size: 40px;
-}
-h2{
-    font-size: 20px;
- 
-}
-h2:hover{
-    color: #3ab171;
-}
 p{
     font-size:15px;
 }
@@ -152,8 +156,48 @@ p{
     color:  #eb6c59;
     
 }
+a:hover{
+    color: #3ab171;
+}
+.div-gn:hover{
+    background-color: #4ea779;
+    color: white;
+}
+.div-gn:hover .fa-pen-to-square{
+    color: white;
+}
+.div-og:hover{
+    background-color: #f9be60;
+    color: white;
+}
+.div-og:hover .ri-volume-up-fill{
+    color: white;
+}
+.div-og:hover .fa-dumbbell{
+    color: white;
+}
+.div-pk:hover{
+    background-color:#ea6d5a;
+    color: white;
+}
+.div-pk:hover .fa-handshake{
+    color: white;
+}
+.div-pk:hover .ri-macbook-line{
+    color: white;
+}
+.div-gr:hover{
+    background-color:#6c747e;
+    color: white;
+}
+.div-gr:hover .pen{
+    color: white;
+}
+.div-gr:hover .ri-camera-fill{
+    color: white;
+}
 
-/* ........................... text start........................... */
+/* ........................... text end........................... */
 
 
 
@@ -165,9 +209,9 @@ p{
 }
 .fa-regular{
     font-size: 45px;
-    color: #4ea779;
-    
+    color: #4ea779;   
 }
+
 .ri-volume-up-fill{
     font-size: 45px;
     color: #f9be60;
@@ -215,6 +259,9 @@ p{
 .w-75{
     width: 75%;
 }
+.w-90{
+    width: 90%;
+}
 img{
     width: 100%;
 }
@@ -223,6 +270,22 @@ img{
 
 
 /* ........................... button start........................... */
+input{
+    border: none;
+    padding: 20px;
+}
+.btn-search{
+    background-color: #4cc082;
+    border: 1px solid  #4cc082;
+    border-radius: 15px;
+    width: 50px;
+    height: 40px;
+    transform: translateX(-130%);
+}
+.ri-search-line{
+    color: white;
+    font-size: 22px;
+}
 .btn{
     width: 200px;
     height: 60px;
@@ -272,6 +335,7 @@ img{
 .h-600{
     height: 600px;
 }
+
 
 /* ........................... hight end........................... */
 
