@@ -21,6 +21,27 @@
 .mw{
 width: 200px !important;
 }
+.transform{
+    transform: translateY(-50%);
+}
+
+@media(max-width:1400px){
+    .w-xxl-4{
+        width: 25%;
+    }
+    .w-xxl-3{
+        width: 33.33%;
+    }
+    .w-xxl-2{
+        width: 50%;
+    }
+    .w-xxl-1{
+        width: 100%;
+    }
+    .transform{
+        transform: translateY(0%);
+    }
+}
 
 @media(max-width:1399px){
     .w-xl-4{
@@ -35,6 +56,7 @@ width: 200px !important;
     .w-xl-1{
         width: 100%;
     }
+  
 }
 
 @media(max-width:1199px){
@@ -49,6 +71,10 @@ width: 200px !important;
     }
     .w-lg-1{
         width: 100%;
+    }
+    .w-lm{
+        max-width: 840px;
+        margin: auto;
     }
 }
 

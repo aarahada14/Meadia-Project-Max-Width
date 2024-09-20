@@ -138,16 +138,19 @@ h2:hover{
     color: #3ab171;
 }
 h3{
-    font-size: 90px;
+    font-size:90px;
     font-weight: 300;
+}
+h4{
+    font-size: 23px;
+}
+h5{
+    font-size: 16px;
 }
 h6{
     font-size: 15px;
     word-spacing: 3px;
     font-weight: 500;
-}
-h5{
-    font-size: 16px;
 }
 p{
     font-size:15px;
@@ -245,6 +248,16 @@ a:hover{
     
 }
 /* ........................... icone end........................... */
+ 
+
+
+
+/* ........................... slider start........................... */
+.slick-dots li button::before{
+    font-size: 40px !important;
+    color: #4cc082 !important;
+}
+/* ........................... slider end........................... */ 
 
 
 
@@ -252,6 +265,9 @@ a:hover{
 
 .img-w{
     width: 70%;  
+}
+.w-18{
+    width: 18%;
 }
 .w-25{
     width: 25%;
@@ -310,6 +326,18 @@ input{
 .btn2:hover{
     background-color: #3ab171;
 }
+.btn-now{
+    width: 90%;
+    height: 60px;
+    border: 1px solid  #4cc082;
+    border-radius: 30px;
+    background-color: #4cc082;
+    font-size: 18px;
+    color: white;
+}
+.btn-now:hover{
+    background-color: #3ab171;
+}
 /* ........................... button end........................... */
 
 
@@ -347,6 +375,9 @@ input{
 }
 .radius-10{
     border-radius: 10px;
+}
+.radius-30{
+    border-radius: 30px;
 }
 .radius-100{
     border-radius: 100%;
@@ -390,6 +421,9 @@ input{
 .p-30{
     padding: 30px;
 }
+.p-40{
+    padding: 40px;
+}
 .p-l-r30{
     padding: 30px 0px;
 }
@@ -397,6 +431,34 @@ input{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.p-t-b-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 /* ........................... padding end........................... */
 
+.img-hover{
+    overflow: hidden;
+    position: relative;
+}
+.img-hover-img{
+    transition: all 0.5s;
+   
+}
+
+
+.img-hover:hover .img-hover-img{
+    scale: 1.2;
+}
+.any-icon{
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+
+.any-icon i{
+    font-size: 30px;
+    background-color: #3ab171;
+    color: white;
+}
