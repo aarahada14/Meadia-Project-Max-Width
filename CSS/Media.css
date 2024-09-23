@@ -95,6 +95,9 @@ width: 200px !important;
         max-width: 840px;
         margin: auto;
     }
+    h3{
+        font-size: 70px;
+    }
     .d-md-block{
         display: block;
     }

@@ -23,9 +23,13 @@
 /* ...........................flex start........................... */
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 .content-center{
     justify-content: center;
+}
+.content-start{
+    justify-content:start;
 }
 .content-end{
     justify-content: end;
@@ -98,6 +102,9 @@
 }
 .b-black{
     border: 1px solid black;
+}
+.b-gray{
+    border: 1px solid gray;
 }
 .b-blue{
     border: 1px solid blue;
@@ -231,9 +238,9 @@ a:hover{
     font-size: 45px;
     color:#eb6c59;
 }
-.fa-solid{
-    font-size: 45px;
-    color: #f9be60;
+.fa-bars{
+    font-size: 35px;
+    color:rgb(117, 112, 112);
 }
 .fa-handshake{
     font-size: 45px;
@@ -246,6 +253,13 @@ a:hover{
 .ri-star-fill{
     color: #5ab886;
     
+}
+.f-icon{
+    font-size: 35px;
+    color: gray;
+}
+.f-icon:hover{
+    color: #3ab171;
 }
 /* ........................... icone end........................... */
  
@@ -269,8 +283,11 @@ a:hover{
 .w-18{
     width: 18%;
 }
-.w-25{
-    width: 25%;
+.w-28{
+    width: 28%;
+}
+.w-30{
+    width: 30%;
 }
 .w-75{
     width: 75%;
@@ -296,7 +313,7 @@ input{
     border-radius: 15px;
     width: 50px;
     height: 40px;
-    transform: translateX(-130%);
+    transform: translateX(-100%);
 }
 .ri-search-line{
     color: white;
@@ -438,6 +455,13 @@ input{
 
 /* ........................... padding end........................... */
 
+
+
+
+
+
+/* ...........................transition start........................... */
+
 .img-hover{
     overflow: hidden;
     position: relative;
@@ -449,7 +473,7 @@ input{
 
 
 .img-hover:hover .img-hover-img{
-    scale: 1.2;
+    scale: 1.1;
 }
 .any-icon{
     position: absolute;
@@ -462,3 +486,6 @@ input{
     background-color: #3ab171;
     color: white;
 }
+
+
+/* ........................... transition end........................... */
