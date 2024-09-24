@@ -166,9 +166,10 @@ p{
     color:  #eb6c59;
     
 }
-a:hover{
+.sidebar b:hover{
     color: #3ab171;
 }
+
 .div-gn:hover{
     background-color: #4ea779;
     color: white;
@@ -315,8 +316,8 @@ input{
     height: 40px;
     transform: translateX(-100%);
 }
-.ri-search-line{
-    color: white;
+.search-white{
+    color:white;
     font-size: 22px;
 }
 .btn{
@@ -485,7 +486,62 @@ input{
     font-size: 30px;
     background-color: #3ab171;
     color: white;
+    transform: rotateY(90deg);
+    transform-origin: left;
+}
+
+.icon-a{
+    transition: all 0.5s;
+}
+
+.icon-b{
+    transition: all 0.5s 0.2s;
+}
+
+.icon-c{
+    transition: all 0.5s 0.4s;
+}
+
+.icon-d{
+    transition: all 0.5s 0.6s
+}
+.img-hover:hover i{
+    transform: rotateY(0deg)
 }
 
 
 /* ........................... transition end........................... */
+
+
+
+
+
+/* ............................dropdown-menu start.............................. */
+a{
+    position: relative;
+}
+.dropdown-menu{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+    background-color: white;
+    list-style: none;
+    position: absolute;
+    top: 25px;
+}
+.dropdown-menu >li:hover{
+    background-color: gainsboro;
+}
+.dropdown-menu{
+   padding: 20px;
+   line-height:2.5;
+   font-weight:700;
+   display: none;
+}
+
+
+a:hover .dropdown-menu{
+    display: block;
+}
+
+/*............................dropdown-menu end.............................. */ 

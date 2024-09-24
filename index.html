@@ -47,15 +47,66 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-2 w-xs-1 w-md-2 d-md-none">
+                <div class="w-2 w-xs-1 w-md-2 sidebar">
+                    <div class="w-1 p-10 d-none d-md-block">
+                        <button class="btn-close">X</button>
+                        
+                    </div>
                     <div class="w-1  p-10  ">
-                        <div class="w-1  h-70 d-flex content-around align-center">
-                            <a style="color:#3ab171;"><b>HOME<i class="ri-arrow-down-s-fill"></i></b></a>
-                            <a><b>PAGES<i class="ri-arrow-down-s-fill"></i></b></a>
-                            <a><b>COURSES<i class="ri-arrow-down-s-fill"></i></b></a>
-                            <a><b>EVENTS<i class="ri-arrow-down-s-fill"></i></b></a>
-                            <a><b>BLOG<i class="ri-arrow-down-s-fill"></i></b></a>
-                            <a><b>SHOP<i class="ri-arrow-down-s-fill"></i></b></a>
+                        <div class="w-1  h-70  content-around align-center column-lg" style="display: flex;">
+                            <img class="d-none d-md-block logo-none" style="width:130px" src="img/logo.png" alt="">
+                            <a style="color:#3ab171;"><b>HOME</b></a>
+                            <a >
+                                <b>PAGES<i class="ri-arrow-down-s-fill"></i></b>
+                                <ul class="dropdown-menu">
+                                    <li>ABOUT US</li>
+                                    <li>INSTRUCTORS</li>
+                                    <li>CART</li>
+                                    <li>WISHLIST</li>
+                                    <li>CHECKOUT</li>
+                                    <li>PRICE PLAN</li>
+                                    <li>CONTACT</li>
+                                    <li>FAQS</li>
+                                    <li>ACCOUNT</li>
+                                    <li>THANKYOU</li>
+                                    <li>ERROR 404</li>
+                                    <li>STYLE</li>
+                                </ul>
+                            </a>
+                           
+                            <a>
+                                <b>COURSES<i class="ri-arrow-down-s-fill"></i></b>
+                                <ul class="dropdown-menu">
+                                    <li>COURSES</li>
+                                    <li>COURSES DETAILS</li>
+                                </ul>
+                            </a>
+                           
+                            <a>
+                                <b>EVENTS<i class="ri-arrow-down-s-fill"></i></b>
+                                <ul class="dropdown-menu">
+                                    <li>EVENTS</li>
+                                    <li>EVENTS DETAILS</li>
+                                </ul>
+                            </a>
+                           
+                            <a>
+                                    <b>BLOG<i class="ri-arrow-down-s-fill"></i></b>
+                                <ul class="dropdown-menu">
+                                    <li>BLOG</li>
+                                    <li>SINGAL POST</li>
+                                </ul>
+                            </a>
+                           
+                            <a>
+                                <b>SHOP<i class="ri-arrow-down-s-fill"></i></b>
+                                <ul class="dropdown-menu">
+                                    <li>SHOP</li>
+                                    <li>SINGAL PRODUCT</li>
+                                </ul>
+                            
+                            </a>
+                           
                             <a><b>CONTACT<i class="ri-arrow-down-s-fill"></i></b></a>
 
                         </div>
@@ -63,15 +114,15 @@
                 </div>
                 <div class=" d-none d-md-block ">
                     <div class=" p-10  ">
-                        <div class=" h-70  d-flex  align-center b-gray radius-10 p-10">
+                        <div class=" h-70  d-flex  align-center b-gray radius-10 p-10 open-btn">
                             <i class="fa-solid fa-bars"></i>
                         </div>
                     </div>
                 </div>
               
-                <div class="w-4  w-xs-1 w-md-2  ">
+                <div class="w-4  w-md-1">
                     <div class="w-1  p-10 ">
-                        <div class="w-1 h-70  d-flex gap content-end justify-xs-start align-center">
+                        <div class="w-1 h-70   flex-start  d-flex gap content-end justify-xs-start align-center">
                            <b><i class="ri-account-circle-line i-size"></i></b> 
                             <b><i class="ri-heart-line i-size"></i></b>
                            <b><i class="ri-shopping-bag-line i-size"></i></b> 
@@ -103,7 +154,7 @@
 
                     <div class="w-1 align-center" style="display: flex;">
                         <input class="w-90 radius-10 h-50" placeholder="What are you trying to learn?"/>
-                        <button class="btn-search"><i class="ri-search-line"></i></button>
+                        <button class="btn-search"><i class="search-white ri-search-line"></i></button>
                     </div>
                     
                 </div>
@@ -608,6 +659,9 @@
 <!-- .......................................slick slider END............................................ --> 
   
 
+
+
+<!-- .......................................Our Teachers START............................................ --> 
 <section >
 
     <div class="containar-fuid m-100 p-20">
@@ -628,8 +682,14 @@
             <div class="w-5 w-s-1 w-sm-2 w-md-3 p-10">
                 
                 <div class="w-1 shadow p-10 radius-10">
-                    <div class="b-black img-hover">
+                    <div class="img-hover">
                         <img class="radius-10 img-hover-img" src="img/teacher1.jpg" alt="">
+                        <div class="any-icon d-flex column">
+                            <i class="icon-a ri-facebook-circle-fill"></i>
+                            <i class="icon-b ri-twitter-fill"></i>
+                            <i class="icon-c ri-instagram-fill"></i>
+                            <i class="icon-d ri-linkedin-box-fill"></i>
+                        </div>
                     </div>
                     <h4 class="t-align">Anila Lee</h4>
                     <h6 class="p-color t-align" style="font-size: 16px; font-weight:400;">Art Director</h6>
@@ -638,13 +698,13 @@
             </div>  
             <div class="w-5 w-s-1 w-sm-2 w-md-3 p-10">
                 <div class="w-1 shadow p-10 radius-10">
-                    <div class="b-black img-hover">
+                    <div class="img-hover">
                         <img class="radius-10 img-hover-img" src="img/teacher2.jpg" alt="">
-                        <div class="any-icon b-red d-flex column">
-                            <i class="ri-facebook-circle-fill"></i>
-                            <i class="ri-twitter-fill"></i>
-                            <i class="ri-instagram-fill"></i>
-                            <i class="ri-linkedin-box-fill"></i>
+                        <div class="any-icon d-flex column">
+                            <i class="icon-a ri-facebook-circle-fill"></i>
+                            <i class="icon-b ri-twitter-fill"></i>
+                            <i class="icon-c ri-instagram-fill"></i>
+                            <i class="icon-d ri-linkedin-box-fill"></i>
                         </div>
                     </div>
                     <h4 class="t-align">Bruce Smith</h4>
@@ -653,8 +713,14 @@
             </div>  
             <div class="w-5 w-s-1 w-sm-2 w-md-3 p-10">
                 <div class="w-1 shadow p-10 radius-10">
-                    <div class="b-black img-hover">
+                    <div class="img-hover">
                         <img class="radius-10 img-hover-img" src="img/teacher3.jpg" alt="">
+                        <div class="any-icon d-flex column">
+                            <i class="icon-a ri-facebook-circle-fill"></i>
+                            <i class="icon-b ri-twitter-fill"></i>
+                            <i class="icon-c ri-instagram-fill"></i>
+                            <i class="icon-d ri-linkedin-box-fill"></i>
+                        </div>
                     </div>
                     <h4 class="t-align">Jack Nicholson</h4>
                     <h6 class="p-color t-align" style="font-size: 16px; font-weight:400;">SEO Expert</h6>
@@ -662,8 +728,14 @@
             </div>  
             <div class="w-5 w-s-1 w-sm-2 w-md-3 p-10">
                 <div class="w-1 shadow p-10 radius-10">
-                    <div class="b-black img-hover">
+                    <div class="img-hover">
                         <img class="radius-10 img-hover-img" src="img/teacher4.jpg" alt="">
+                        <div class="any-icon d-flex column">
+                            <i class="icon-a ri-facebook-circle-fill"></i>
+                            <i class="icon-b ri-twitter-fill"></i>
+                            <i class="icon-c ri-instagram-fill"></i>
+                            <i class="icon-d ri-linkedin-box-fill"></i>
+                        </div>
                     </div>
                     <h4 class="t-align">Calvin Ian</h4>
                     <h6 class="p-color t-align" style="font-size: 16px; font-weight:400;">Sales Director</h6>
@@ -671,8 +743,14 @@
             </div> 
             <div class="w-5 w-s-1 w-sm-2 w-md-3 p-10">
                 <div class="w-1 shadow p-10 radius-10">
-                    <div class="b-black img-hover">
+                    <div class="img-hover">
                         <img class="radius-10 img-hover-img" src="img/teacher5.jpg" alt="">
+                        <div class="any-icon d-flex column">
+                            <i class="icon-a ri-facebook-circle-fill"></i>
+                            <i class="icon-b ri-twitter-fill"></i>
+                            <i class="icon-c ri-instagram-fill"></i>
+                            <i class="icon-d ri-linkedin-box-fill"></i>
+                        </div>
                     </div>
                     <h4 class="t-align">Milye Sam</h4>
                     <h6 class="p-color t-align" style="font-size: 16px; font-weight:400;">Marketing Expert</h6>
@@ -683,9 +761,12 @@
     </div>
 
 </section>
+<!-- .......................................Our Teachers END............................................ -->
 
 
 
+
+<!-- .......................................Core Features START............................................ -->
 <section >
 
     <div class="containar-fuid m-100 p-20">
@@ -734,6 +815,7 @@
     </div>
 
 </section>
+<!-- .......................................Core Features END............................................ -->
 
 
 
@@ -817,7 +899,23 @@
 <!-- .......................................footer END............................................ --> 
 
 
+
+
+
+
+<!-- .......................................script START............................................ -->
 <script src="JS/jquery-3.7.1.min.js"></script>
+
+
+<script>
+    $(".btn-close").click(function(){
+        $(".sidebar").css("width","0px")
+    })
+    $(".open-btn").click(function(){
+        $(".sidebar").css("width", "300px")
+    })
+</script>
+
 <script src="JS/slick.js"></script>
 
 <script>
@@ -861,6 +959,7 @@ $('.multiple-items').slick({
 </script>
 
 
+<!-- .......................................script END............................................ -->
 
 
 
